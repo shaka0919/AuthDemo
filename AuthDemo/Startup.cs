@@ -36,7 +36,7 @@ namespace AuthDemo
                 app.UseDeveloperExceptionPage();
             }
 
-            //skip the cert check.
+            // skip the cert check.
             //app.UseHttpsRedirection();
 
             app.UseRouting();
